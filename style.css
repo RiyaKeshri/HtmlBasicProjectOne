@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    background-color: gainsboro;
+}
+
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    
+}
+
+.logo{
+    float: left;
+    padding: 15px;
+}
+.search{
+    float: right;
+    padding: 15px;
+}
+.clearflex{
+    clear: both;
+}
+.main-menu{
+    background-color: teal;
+}
+.main-menu > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.main-menu >ul >li{
+    display: inline-block;
+}
+.main-menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+    z-index: 1;
+
+}
+
+.main-menu > ul > li > a:hover{
+    background-color: goldenrod;
+}
+
+.drop{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    display: none;
+}
+
+.drop >li >a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: black;
+}
+
+.drop >li >a:hover{
+    background-color: orange;
+}
+
+.main-menu > ul > li:hover .drop{
+    display: block;
+}
+.banner{
+    width: 100%;
+    height: 567px;
+    overflow: hidden;
+
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+/* containt_holde */
+.containt_holder{
+    background-color: blueviolet;
+}
+.containt{
+    width: 700px; 
+    height: auto;
+    padding: 25px;
+    background-color: white;
+    float: left;
+}
+.containt h1{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+.containt p{
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.side_bar{
+    float: left;  
+    padding: 25px;
+}
+
+.side_bar h3{
+    color: white;
+    font-family: sans-serif;
+}
+
+.side_bar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.footer{
+    background-color: black;
+    color: white;
+    width: 950px;
+    height: auto;
+    padding: 25px;
+}
+.footer-box{
+    width: 205.4px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+}
+.footer-box ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-box > ul > li > a{
+    display: block;
+    font-size: small;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+.footer-box address a{
+    color: teal;
+    font-family: sans-serif;
+}
+.footer-box address p{
+    font-family: sans-serif;
+}
+.footer_banner{
+   text-align: center;
+   font-size: small;
+   font-family: sans-serif;
+   padding: 25px;
+   background-color: green;
+   color: white;
+   font-size: large;
+}
+.footer_banner p{
+    margin: 0;
+}
